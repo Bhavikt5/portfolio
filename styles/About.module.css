@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap");
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+}
+
+.outerBox {
+  display: flex;
+}
+
+.heading {
+  font-family: "Megrim", cursive;
+  text-align: center;
+  margin: 0 0 2rem;
+  font-size: 2.5rem;
+  color: var(--primary);
+}
+
+.content p {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 1rem;
+  font-size: 1.1rem;
+  color: var(--primary);
+}
+
+.container {
+  padding: 1rem;
+}
+
+.card {
+  padding: 2rem 2rem;
+  text-align: center;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 1rem;
+}
+
+.card h5,
+.card svg,
+.card p {
+  color: var(--primary);
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.about a {
+  text-decoration: none;
+  color: var(--primary);
+  background-color: lightgray;
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.about a:hover {
+  background-color: var(--primary);
+  color: #fff;
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap");
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 5rem;
+}
+
+.image img {
+  width: 300px;
+  height: 300px;
+  animation: aboutImage 4s linear infinite;
+}
+
+@keyframes aboutImage {
+  0%,
+  100% {
+    transform: scale(0.9);
+    border-radius: 4% 95% 6% 95%/ 95% 4% 92% 5%;
+  }
+  50% {
+    transform: scale(0.8);
+    border-radius: 95% 4% 97% 5%/4% 94% 3% 95%;
+  }
+}
+
+.content {
+  padding: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.content h5 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.content h1 span {
+  color: var(--secondary);
+}
+
+.content p {
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.social {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  left: 0;
+  top: 30vh;
+}
+
+.techStack h5 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+.techStack div {
+  display: flex;
+  gap: 1rem;
+}
