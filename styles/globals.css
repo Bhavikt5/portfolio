@@ -18,3 +18,7 @@
   --secondary: rgb(144, 42, 160);
   --white: #2a2727;
 }
+
+span {
+  color: var(--secondary);
+}

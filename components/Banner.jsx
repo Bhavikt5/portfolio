@@ -64,7 +64,7 @@ const Banner = () => {
         </div>
       </div>
       <div className={styles.image}>
-        <Image src={personalImg} />
+        <Image src={personalImg} alt="bannerimage" />
       </div>
     </section>
   );

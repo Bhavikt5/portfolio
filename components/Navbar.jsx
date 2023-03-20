@@ -2,12 +2,14 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import styles from "../styles/Navbar.module.css";
 import { useRouter } from "next/router";
-import { FaMoon, FaSun } from "react-icons/fa";
+import { FaBars, FaChair, FaMoon, FaSun } from "react-icons/fa";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
   const router = useRouter();
 
   const [mode, setMode] = useState(true);
+  const [showMenu, setShowMenu] = useState(true);
 
   const enabledDark = () => {
     if (mode) {
@@ -33,7 +35,7 @@ const Navbar = () => {
             Bhavik.<span>Dev</span>
           </h1>
         </div>
-        <div className={styles.rightNav}>
+        <div className={`${styles.rightNav} ${!showMenu ? styles.active : ""}`}>
           <nav className={styles.navbar}>
             <Link
               href="/"
@@ -83,6 +85,26 @@ const Navbar = () => {
             {mode ? <FaSun /> : <FaMoon />}
           </button>
         </div>
+
+        {showMenu ? (
+          <FaBars
+            fontSize={30}
+            color="var(--primary)"
+            className={styles.bars}
+            onClick={() => {
+              setShowMenu(false);
+            }}
+          />
+        ) : (
+          <AiOutlineClose
+            fontSize={30}
+            color="var(--primary)"
+            className={styles.bars}
+            onClick={() => {
+              setShowMenu(true);
+            }}
+          />
+        )}
       </header>
     </>
   );

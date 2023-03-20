@@ -5,11 +5,7 @@
 .about {
   display: flex;
   flex-direction: column;
-  padding: 4rem;
-}
-
-.outerBox {
-  display: flex;
+  padding: 4rem 6rem;
 }
 
 .heading {
@@ -29,10 +25,14 @@
 
 .container {
   padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .card {
-  padding: 2rem 2rem;
+  padding: 2rem;
   text-align: center;
   border: 1px solid lightgray;
   border-radius: 8px;
@@ -67,4 +67,10 @@
 .about a:hover {
   background-color: var(--primary);
   color: #fff;
+}
+
+@media (max-width: 425px) {
+  .about {
+    padding: 4rem 1rem;
+  }
 }

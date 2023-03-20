@@ -73,3 +73,24 @@
   display: flex;
   gap: 1rem;
 }
+
+@media (max-width: 425px) {
+  .banner {
+    flex-direction: column-reverse;
+    padding: 0 1rem;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+
+  .social {
+    top: auto;
+    bottom: 0;
+    flex-direction: row;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    gap: 3rem;
+  }
+}
