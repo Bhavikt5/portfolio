@@ -1,0 +1,87 @@
+.qualification {
+  padding: 3rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading h1 {
+  font-family: "Megrim", cursive;
+  font-size: 2.5rem;
+  color: var(--primary);
+}
+
+.heading p {
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--primary);
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnDiv {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.button {
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--primary);
+}
+
+.button p {
+  font-weight: 700;
+  transition: 0.4s ease;
+}
+
+.button svg {
+  font-size: 1.4rem;
+  color: var(--primary);
+  transition: 0.4s ease;
+}
+
+.button:hover svg,
+.button:hover {
+  color: var(--secondary);
+}
+
+.timeline {
+  /* list-style: none; */
+  margin: 1rem 0;
+}
+
+.timeline li {
+  margin-bottom: 1rem;
+}
+
+.timeline li h5 {
+  color: var(--primary);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.timeline li p {
+  color: var(--primary);
+  font-size: 0.9rem;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 3px 0;
+}

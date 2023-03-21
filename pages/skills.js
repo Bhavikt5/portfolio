@@ -33,6 +33,10 @@ const Skills = () => {
         title: "React Native",
         level: "Basic",
       },
+      {
+        title: "Git",
+        level: "Basic",
+      },
     ],
     backend: [
       {

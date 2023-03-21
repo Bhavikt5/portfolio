@@ -1,0 +1,82 @@
+.portfolio {
+  padding: 3rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.heading h1 {
+  font-family: "Megrim", cursive;
+  font-size: 2.5rem;
+  color: var(--primary);
+}
+
+.heading p {
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--primary);
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.content h3,
+.content p,
+.content h5 {
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--primary);
+  margin-bottom: 6px;
+}
+
+.content h5 {
+  font-size: 1rem;
+  margin-top: 1.3rem;
+}
+
+.content p {
+  font-size: 0.8rem;
+  margin-bottom: 1.3rem;
+}
+
+.content a {
+  padding: 7px 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--primary);
+  font-family: "Josefin Sans", sans-serif;
+  transition: 0.3s ease;
+}
+
+.content a:hover {
+  background-color: gray;
+}
+
+@media (max-width: 425px) {
+  .mainContainer {
+    flex-direction: column;
+    align-items: normal;
+    box-shadow: var(--boxShadow);
+  }
+
+  .content {
+    padding: 0 1rem 1.5rem;
+  }
+
+  .mainContainer img {
+    width: 100% !important;
+  }
+
+  .portfolio {
+    padding-bottom: 6rem;
+  }
+}

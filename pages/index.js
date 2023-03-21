@@ -1,5 +1,7 @@
 import Banner from "../components/Banner";
+import Qualification from "../components/Qualification";
 import About from "./about";
+import Portfolio from "./portfolio";
 import Skills from "./skills";
 
 export default function Home() {
@@ -8,6 +10,8 @@ export default function Home() {
       <Banner />
       <About />
       <Skills />
+      <Qualification />
+      <Portfolio />
     </>
   );
 }
