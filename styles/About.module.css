@@ -1,7 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap");
-
 .about {
   display: flex;
   flex-direction: column;
@@ -21,6 +17,7 @@
   margin: 1rem;
   font-size: 1.1rem;
   color: var(--primary);
+  line-height: 25px;
 }
 
 .container {
@@ -36,7 +33,7 @@
   text-align: center;
   border: 1px solid lightgray;
   border-radius: 8px;
-  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: var(--boxShadow);
   margin-bottom: 1rem;
 }
 
@@ -48,8 +45,9 @@
   margin-bottom: 5px;
 }
 
-.card p {
-  font-size: 0.8rem;
+.card p,
+.card h5 {
+  font-size: 1.1rem;
   font-weight: 700;
 }
 

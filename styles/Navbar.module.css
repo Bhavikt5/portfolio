@@ -41,8 +41,8 @@
   border: none;
   cursor: pointer;
   margin-left: 2rem;
-  padding: 3px 4px;
-  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 5px 5px 3px;
+  box-shadow: var(--boxShadow);
 }
 
 .toggleBtn svg {
@@ -63,7 +63,7 @@
   .rightNav {
     position: absolute;
     top: 0;
-    left: -500%;
+    left: -100%;
     flex-direction: column-reverse;
     justify-content: center;
     width: 90%;
@@ -88,6 +88,6 @@
   }
   .rightNav {
     width: 80%;
-    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: var(--boxShadow);
   }
 }

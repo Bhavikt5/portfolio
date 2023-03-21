@@ -1,0 +1,95 @@
+.skills {
+  padding: 3rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading h1 {
+  font-family: "Megrim", cursive;
+  font-size: 2.5rem;
+  color: var(--primary);
+}
+
+.heading p {
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--primary);
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  height: 100%;
+  gap: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: var(--boxShadow);
+  border-radius: 8px;
+  padding: 2rem 1rem 1rem;
+  width: 40%;
+}
+
+.container h5 {
+  font-size: 1.2rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--primary);
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.innerBox {
+  display: flex;
+  width: 50%;
+  gap: 0.6rem;
+  padding: 1rem;
+}
+
+.innerBox svg {
+  font-size: 1.3rem;
+  color: var(--secondary);
+}
+
+.content h5,
+.content p {
+  font-size: 0.9rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--primary);
+}
+
+.content p {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .mainContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 425px) {
+  .skills {
+    padding: 3rem 0;
+  }
+  .mainContainer {
+    padding: 2rem 0;
+  }
+  .container {
+    width: 80%;
+  }
+}

@@ -54,10 +54,9 @@ const Navbar = () => {
               About
             </Link>
             <Link
-              href="/portfolio"
+              href="/skills"
               style={{
-                color:
-                  router.pathname == "/portfolio" ? "var(--secondary)" : "",
+                color: router.pathname == "/skills" ? "var(--secondary)" : "",
               }}
             >
               Skills
