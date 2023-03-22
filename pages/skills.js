@@ -1,59 +1,9 @@
 import React from "react";
 import styles from "../styles/Skills.module.css";
 import { BsFillPatchCheckFill } from "react-icons/bs";
+import skilled from "./api/skillList";
 
 const Skills = () => {
-  const skill = {
-    frontend: [
-      {
-        title: "HTML",
-        level: "Intermediate",
-      },
-      {
-        title: "CSS",
-        level: "Intermediate",
-      },
-      {
-        title: "JS",
-        level: "Intermediate",
-      },
-      {
-        title: "JQuery",
-        level: "Basic",
-      },
-      {
-        title: "React",
-        level: "Basic",
-      },
-      {
-        title: "Nextjs",
-        level: "Basic",
-      },
-      {
-        title: "React Native",
-        level: "Basic",
-      },
-      {
-        title: "Git",
-        level: "Basic",
-      },
-    ],
-    backend: [
-      {
-        title: "NodeJS",
-        level: "Basic",
-      },
-      {
-        title: "MongoDB",
-        level: "Basic",
-      },
-      {
-        title: "Express",
-        level: "Basic",
-      },
-    ],
-  };
-
   return (
     <>
       <section className={styles.skills}>
@@ -66,7 +16,7 @@ const Skills = () => {
           <div className={styles.container}>
             <h5>Frontend</h5>
             <div className={styles.box}>
-              {skill.frontend.map((i, index) => {
+              {skilled.frontend.map((i, index) => {
                 return (
                   <div className={styles.innerBox} key={index}>
                     <BsFillPatchCheckFill />
@@ -82,7 +32,7 @@ const Skills = () => {
           <div className={styles.container}>
             <h5>Backend</h5>
             <div className={styles.box}>
-              {skill.backend.map((i, index) => {
+              {skilled.backend.map((i, index) => {
                 return (
                   <div className={styles.innerBox} key={index}>
                     <BsFillPatchCheckFill />

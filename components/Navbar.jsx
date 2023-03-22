@@ -2,12 +2,29 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import styles from "../styles/Navbar.module.css";
 import { useRouter } from "next/router";
-import { FaBars, FaChair, FaMoon, FaSun } from "react-icons/fa";
+import { FaBars, FaMoon, FaSun } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 
-const Navbar = () => {
+const Linked = (props) => {
   const router = useRouter();
 
+  return (
+    <Link
+      href={props.href}
+      onClick={props.click}
+      style={{
+        color:
+          router.pathname == `${props.href}`
+            ? "var(--secondary)"
+            : "var(--primary)",
+      }}
+    >
+      {props.title}
+    </Link>
+  );
+};
+
+const Navbar = () => {
   const [mode, setMode] = useState(true);
   const [showMenu, setShowMenu] = useState(true);
 
@@ -37,47 +54,31 @@ const Navbar = () => {
         </div>
         <div className={`${styles.rightNav} ${!showMenu ? styles.active : ""}`}>
           <nav className={styles.navbar}>
-            <Link
+            <Linked
               href="/"
-              style={{
-                color: router.pathname == "/" ? "var(--secondary)" : "",
-              }}
-            >
-              Home
-            </Link>
-            <Link
+              title="Home"
+              click={() => setShowMenu(!showMenu)}
+            />
+            <Linked
               href="/about"
-              style={{
-                color: router.pathname == "/about" ? "var(--secondary)" : "",
-              }}
-            >
-              About
-            </Link>
-            <Link
+              title="About"
+              click={() => setShowMenu(!showMenu)}
+            />
+            <Linked
               href="/skills"
-              style={{
-                color: router.pathname == "/skills" ? "var(--secondary)" : "",
-              }}
-            >
-              Skills
-            </Link>
-            <Link
+              title="Skills"
+              click={() => setShowMenu(!showMenu)}
+            />
+            <Linked
               href="/portfolio"
-              style={{
-                color:
-                  router.pathname == "/portfolio" ? "var(--secondary)" : "",
-              }}
-            >
-              Portfolio
-            </Link>
-            <Link
+              title="Portfolio"
+              click={() => setShowMenu(!showMenu)}
+            />
+            <Linked
               href="/contact"
-              style={{
-                color: router.pathname == "/contact" ? "var(--secondary)" : "",
-              }}
-            >
-              Contact
-            </Link>
+              title="Contact"
+              click={() => setShowMenu(!showMenu)}
+            />
           </nav>
 
           <button className={styles.toggleBtn} onClick={() => enabledDark()}>

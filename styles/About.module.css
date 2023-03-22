@@ -52,19 +52,18 @@
 }
 
 .about a {
+  padding: 7px 1rem;
+  border-radius: 4px;
   text-decoration: none;
-  color: var(--primary);
-  background-color: lightgray;
-  padding: 0.5rem 2rem;
-  border-radius: 8px;
+  color: var(--white);
+  background-color: var(--primary);
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 600;
+  transition: 0.3s ease;
   margin-left: 1rem;
 }
 
 .about a:hover {
-  background-color: var(--primary);
-  color: #fff;
+  background-color: gray;
 }
 
 @media (max-width: 425px) {
