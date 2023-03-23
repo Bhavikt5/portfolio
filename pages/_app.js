@@ -3,6 +3,8 @@ import "../styles/globals.css";
 import Router from "next/router";
 import { useState } from "react";
 import Loader from "../components/Loader";
+import { Provider } from "react-redux";
+import store from "../globalRedux/store";
 
 function MyApp({ Component, pageProps }) {
   // const [loading, setLoading] = useState();
@@ -20,8 +22,11 @@ function MyApp({ Component, pageProps }) {
         <Loader />
       ) : ( */}
       {/* <> */}
-      <Navbar />
-      <Component {...pageProps} />
+
+      <Provider store={store}>
+        <Navbar />
+        <Component {...pageProps} />
+      </Provider>
       {/* </>
       )} */}
     </>

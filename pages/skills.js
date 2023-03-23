@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../styles/Skills.module.css";
 import { BsFillPatchCheckFill } from "react-icons/bs";
-import skilled from "./api/skillList";
 
 const Skills = () => {
+  const [skilled, setSkilled] = useState({});
+
+  useEffect(() => {
+    fetchSkill();
+  }, []);
+
+  const fetchSkill = async () => {
+    const response = await fetch("/api/skillList");
+    const data = await response.json();
+    setSkilled(data);
+  };
   return (
     <>
       <section className={styles.skills}>
@@ -16,7 +26,7 @@ const Skills = () => {
           <div className={styles.container}>
             <h5>Frontend</h5>
             <div className={styles.box}>
-              {skilled.frontend.map((i, index) => {
+              {skilled.frontend?.map((i, index) => {
                 return (
                   <div className={styles.innerBox} key={index}>
                     <BsFillPatchCheckFill />
@@ -32,7 +42,7 @@ const Skills = () => {
           <div className={styles.container}>
             <h5>Backend</h5>
             <div className={styles.box}>
-              {skilled.backend.map((i, index) => {
+              {skilled.backend?.map((i, index) => {
                 return (
                   <div className={styles.innerBox} key={index}>
                     <BsFillPatchCheckFill />
