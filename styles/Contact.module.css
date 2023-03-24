@@ -1,0 +1,50 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 3rem; */
+}
+
+.heading h1 {
+  font-family: "Megrim", cursive;
+  font-size: 2.5rem;
+  color: var(--primary);
+}
+
+.heading p {
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--primary);
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: var(--boxShadow);
+  padding: 2rem;
+  gap: 1rem;
+  border-radius: 4px;
+  color: var(--primary);
+  font-family: "Josefin Sans", sans-serif;
+  width: 200px;
+}
+
+.contact {
+  padding-bottom: 3rem;
+}
+
+@media (max-width: 425px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+}
