@@ -3,28 +3,23 @@ import React from "react";
 import styles from "../styles/Banner.module.css";
 import personalImg from "../public/personel.jpg";
 import {
-  FaBeer,
-  FaCss3,
   FaCss3Alt,
-  FaFacebook,
   FaGithub,
   FaHtml5,
   FaInstagram,
   FaJs,
-  FaJsSquare,
   FaLinkedin,
-  FaLinkedinIn,
   FaReact,
 } from "react-icons/fa";
-
 import { SiJquery, SiRedux } from "react-icons/si";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
     <section className={styles.banner}>
-      <div className={styles.content}>
-        <h5>Hi There,</h5>
+      <motion.div className={styles.content}>
+        <motion.h5>Hi There,</motion.h5>
         <h1>
           I am <span>Bhavik Tank</span>
         </h1>
@@ -62,9 +57,9 @@ const Banner = () => {
             <SiRedux size={25} color="#7248B6" />
           </div>
         </div>
-      </div>
+      </motion.div>
       <div className={styles.image}>
-        <Image src={personalImg} alt="bannerimage" />
+        <Image src={personalImg} alt="bannerimage" priority />
       </div>
     </section>
   );

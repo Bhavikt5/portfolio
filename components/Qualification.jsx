@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import styles from "../styles/Qualification.module.css";
-
 import { HiAcademicCap } from "react-icons/hi";
 import { BiBriefcaseAlt2 } from "react-icons/bi";
-import { SlCalender } from "react-icons/sl";
+import { FaHandPointLeft, FaHandPointRight } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const Qualification = () => {
   const [selectBtn, setSelectBtn] = useState(true);
+
   return (
     <section className={styles.qualification}>
       <div className={styles.heading}>
@@ -14,8 +15,21 @@ const Qualification = () => {
         <p>My Personal Journey</p>
       </div>
 
-      <div className={styles.mainContainer}>
+      <motion.div
+        initial={{ opacity: 0, y: 200 }}
+        whileInView={{ opacity: 1 }}
+        animate={{ y: 0 }}
+        exit={{ opacity: 0 }}
+        viewport={{ once: true }}
+        className={styles.mainContainer}
+      >
         <div className={styles.btnDiv}>
+          <motion.div
+            animate={{ x: [0, -20, 0] }}
+            transition={{ repeat: Infinity, ease: "easeOut", duration: 1.5 }}
+          >
+            <FaHandPointRight color="var(--primary)" />
+          </motion.div>
           <button className={styles.button} onClick={() => setSelectBtn(true)}>
             <BiBriefcaseAlt2 />
             <p>Experience</p>
@@ -24,6 +38,12 @@ const Qualification = () => {
             <HiAcademicCap />
             <p>Education</p>
           </button>
+          <motion.div
+            animate={{ x: [0, 20, 0] }}
+            transition={{ repeat: Infinity, ease: "easeOut", duration: 1.5 }}
+          >
+            <FaHandPointLeft color="var(--primary)" />
+          </motion.div>
         </div>
 
         {!selectBtn ? (
@@ -47,9 +67,28 @@ const Qualification = () => {
               <p>Frontend Web Developer</p>
               <p>June 2022 - Present</p>
             </li>
+
+            <ul className={styles.jobExp}>
+              <li>
+                Developed Subcription Based Comic Website in Nextjs, used API to
+                populate content in various language. Used redux for state
+                management.{" "}
+                <a href="http://164.90.184.187:3000/" target="_blank">
+                  View Project
+                </a>
+              </li>
+              <li>
+                Made Customer Relation Management(CRM) Web App. Tech Stack -
+                HTML, CSS, Javascript, JQuery & Bootstrap.
+              </li>
+              <li>
+                Made Customer Relation Management(CRM) App in React Native. Used
+                Webview to render Graphs in app.
+              </li>
+            </ul>
           </ul>
         )}
-      </div>
+      </motion.div>
     </section>
   );
 };

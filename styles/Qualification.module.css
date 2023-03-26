@@ -25,6 +25,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* background: transparent; */
+  padding: 0 3rem;
 }
 
 .btnDiv {
@@ -84,4 +86,21 @@
   font-size: 0.9rem;
   font-family: "Josefin Sans", sans-serif;
   margin: 3px 0;
+}
+
+.jobExp {
+  padding-left: 2rem !important;
+  list-style: square;
+}
+
+.jobExp li {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 0.9rem;
+  color: var(--primary);
+}
+
+@media (max-width: 425px) {
+  .mainContainer {
+    padding: 0;
+  }
 }

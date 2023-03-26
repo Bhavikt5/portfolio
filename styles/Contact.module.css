@@ -39,6 +39,10 @@
   width: 200px;
 }
 
+.card svg {
+  color: var(--secondary);
+}
+
 .contact {
   padding-bottom: 3rem;
 }

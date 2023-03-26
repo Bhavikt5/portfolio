@@ -66,6 +66,38 @@
   background-color: gray;
 }
 
+.hobbyDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hobby {
+  color: var(--primary);
+  margin-bottom: 7rem;
+}
+
+.hobby li {
+  display: flex;
+  align-items: center;
+  font-family: "Megrim", cursive;
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hobby li svg {
+  margin: 0 0.5rem;
+  color: var(--secondary);
+}
+
+.hobby li p {
+  font-family: "Josefin Sans", sans-serif;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 @media (max-width: 425px) {
   .about {
     padding: 4rem 1rem;
