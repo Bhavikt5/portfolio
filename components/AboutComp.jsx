@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/About.module.css";
 import { TbCertificate2 } from "react-icons/tb";
 import { BiBriefcaseAlt } from "react-icons/bi";
+import { ImDownload } from "react-icons/im";
 import Link from "next/link";
 
 const AboutComp = () => {
@@ -59,7 +60,8 @@ const AboutComp = () => {
 
         <div>
           <a href="Resume.pdf" download>
-            Download CV
+            Download
+            <ImDownload style={{ background: "transparent" }} />
           </a>
 
           <Link href="/about">Know more</Link>
