@@ -19,6 +19,13 @@ const work = [
     anchorLink: "https://bhavikt5.github.io/Construction-Site/",
   },
   {
+    imageUrl: "/realestate.png",
+    title: "Real Estate Website",
+    stack: "HTML, CSS, JavaScript",
+    anchorLink: "https://realestate-two-rho.vercel.app/",
+  },
+
+  {
     imageUrl: "/utsava.png",
     title: "Ecommerce Website",
     stack: "HTML, CSS, JavaScript",
