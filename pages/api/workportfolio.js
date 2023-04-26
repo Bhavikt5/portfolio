@@ -13,6 +13,12 @@ const work = [
     anchorLink: "http://164.90.184.187:3000/",
   },
   {
+    imageUrl: "/qlik.png",
+    title: "Comic Website",
+    stack: "HTML, CSS, JavaScript, Jquery, Bootstrap",
+    anchorLink: "https://qlik-demo.vercel.app/",
+  },
+  {
     imageUrl: "/construction.png",
     title: "Construction Website",
     stack: "HTML, CSS, JavaScript, SCSS",
