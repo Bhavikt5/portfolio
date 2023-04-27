@@ -14,7 +14,7 @@ const work = [
   },
   {
     imageUrl: "/qlik.png",
-    title: "Comic Website",
+    title: "Website",
     stack: "HTML, CSS, JavaScript, Jquery, Bootstrap",
     anchorLink: "https://qlik-demo.vercel.app/",
   },
