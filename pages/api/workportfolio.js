@@ -18,6 +18,13 @@ const work = [
     stack: "HTML, CSS, JavaScript, Jquery, Bootstrap",
     anchorLink: "https://qlik-demo.vercel.app/",
   },
+
+  {
+    imageUrl: "/sushi.png",
+    title: "Sushi Restaurant Website",
+    stack: "HTML, CSS, JavaScript",
+    anchorLink: "https://sushi-website-vert.vercel.app/",
+  },
   {
     imageUrl: "/construction.png",
     title: "Construction Website",
