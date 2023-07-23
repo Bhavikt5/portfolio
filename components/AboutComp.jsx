@@ -26,12 +26,11 @@ const AboutComp = () => {
           <div className={styles.content}>
             <p>
               Hello everyone, my name is <span>Bhavik Tank</span> , and I am a
-              self-taught web developer. I began my journey as a web developer
-              at the age of 30, and I quickly fell in love with the field.
-              Despite not having a traditional education in web development, I
-              have spent countless hours learning and practicing my skills, and
-              I am proud to say that I have developed a strong foundation in web
-              development.
+              self-taught web developer. I began my journey as a web developer,
+              and I quickly fell in love with the field. Despite not having a
+              traditional education in web development, I have spent countless
+              hours learning and practicing my skills, and I am proud to say
+              that I have developed a strong foundation in web development.
             </p>
 
             <p>
