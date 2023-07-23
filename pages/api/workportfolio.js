@@ -1,5 +1,12 @@
 const work = [
   {
+    imageUrl: "/apple clone.png",
+    title: "Apple Vision Pro Clone",
+    stack: "HTML, CSS, JavaScript, Gsap, Locomotive",
+    anchorLink: "https://bhavikt5.github.io/apple-vision-pro-clone/",
+  },
+
+  {
     imageUrl: "/widgetorWebsite.png",
     title: "Website",
     stack: "HTML, CSS, JavaScript, Jquery, Bootstrap",

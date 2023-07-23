@@ -21,7 +21,13 @@ const Portfolio = () => {
         {work.map((i, index) => {
           return (
             <div className={styles.mainContainer} key={index}>
-              <Image src={i.imageUrl} alt="image" width={250} height={160} />
+              <Image
+                src={i.imageUrl}
+                alt="image"
+                width={250}
+                height={160}
+                style={{ objectFit: "cover" }}
+              />
 
               <div className={styles.content}>
                 <h3>{i.title}</h3>
