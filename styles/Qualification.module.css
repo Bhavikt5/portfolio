@@ -78,12 +78,12 @@
 .timeline li h5 {
   color: var(--primary);
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .timeline li p {
   color: var(--primary);
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-family: "Josefin Sans", sans-serif;
   margin: 3px 0;
 }
@@ -95,7 +95,7 @@
 
 .jobExp li {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: var(--primary);
 }
 

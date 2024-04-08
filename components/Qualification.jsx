@@ -61,32 +61,56 @@ const Qualification = () => {
             </li>
           </ul>
         ) : (
-          <ul className={styles.timeline}>
-            <li>
-              <h5>Vivaan InfoSystem, Mumbai</h5>
-              <p>Frontend Web Developer</p>
-              <p>June 2022 - Present</p>
-            </li>
+          <div>
+            <ul className={styles.timeline}>
+              <li>
+                <h5>Acture Media, Mumbai</h5>
+                <p>Web Developer</p>
+                <p>May 2023 - Present</p>
+              </li>
 
-            <ul className={styles.jobExp}>
-              <li>
-                Developed Subcription Based Comic Website in Nextjs, used API to
-                populate content in various language. Used redux for state
-                management.{" "}
-                <a href="http://164.90.184.187:3000/" target="_blank">
-                  View Project
-                </a>
-              </li>
-              <li>
-                Made Customer Relation Management(CRM) Web App. Tech Stack -
-                HTML, CSS, Javascript, JQuery & Bootstrap.
-              </li>
-              <li>
-                Made Customer Relation Management(CRM) App in React Native. Used
-                Webview to render Graphs in app.
-              </li>
+              <ul className={styles.jobExp}>
+                <li>
+                  Delivered 15+ Websites with HTML, CSS, JavaScript and
+                  Wordpress(CMS)
+                </li>
+                <li>
+                  Delivered 4+ Ecommerce Websites with help of Wordpress(CMS)
+                </li>
+                <li>
+                  Starting a web app involves understanding requirements from
+                  the client, coordinating with the UI team, assigning tasks,
+                  developing, and delivering the project.
+                </li>
+              </ul>
             </ul>
-          </ul>
+            <ul className={styles.timeline}>
+              <li>
+                <h5>Vivaan InfoSystem, Mumbai</h5>
+                <p>Frontend Web Developer</p>
+                <p>June 2022 - April 2023</p>
+              </li>
+
+              <ul className={styles.jobExp}>
+                <li>
+                  Developed Subcription Based Comic Website in Nextjs, used API
+                  to populate content in various language. Used redux for state
+                  management.{" "}
+                  <a href="http://164.90.184.187:3000/" target="_blank">
+                    View Project
+                  </a>
+                </li>
+                <li>
+                  Made Customer Relation Management(CRM) Web App. Tech Stack -
+                  HTML, CSS, Javascript, JQuery & Bootstrap.
+                </li>
+                <li>
+                  Made Customer Relation Management(CRM) App in React Native.
+                  Used Webview to render Graphs in app.
+                </li>
+              </ul>
+            </ul>
+          </div>
         )}
       </motion.div>
     </section>
