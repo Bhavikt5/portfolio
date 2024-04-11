@@ -71,16 +71,13 @@ const Qualification = () => {
 
               <ul className={styles.jobExp}>
                 <li>
-                  Delivered 15+ Websites with HTML, CSS, JavaScript and
-                  Wordpress(CMS)
+                  Developed and delivered over 15 websites and 4 e-commerce
+                  sites using HTML, CSS, JavaScript, and WordPress.
                 </li>
                 <li>
-                  Delivered 4+ Ecommerce Websites with help of Wordpress(CMS)
-                </li>
-                <li>
-                  Starting a web app involves understanding requirements from
-                  the client, coordinating with the UI team, assigning tasks,
-                  developing, and delivering the project.
+                  Managed web application projects from initial client
+                  consultation and team coordination to task delegation and
+                  final delivery.
                 </li>
               </ul>
             </ul>
@@ -93,20 +90,20 @@ const Qualification = () => {
 
               <ul className={styles.jobExp}>
                 <li>
-                  Developed Subcription Based Comic Website in Nextjs, used API
-                  to populate content in various language. Used redux for state
-                  management.{" "}
+                  Created a subscription-based comic website using Next.js,
+                  populating content via API in multiple languages and managing
+                  state with Redux.
                   <a href="http://164.90.184.187:3000/" target="_blank">
                     View Project
                   </a>
                 </li>
                 <li>
-                  Made Customer Relation Management(CRM) Web App. Tech Stack -
-                  HTML, CSS, Javascript, JQuery & Bootstrap.
+                  Developed a Customer Relationship Management (CRM) web app
+                  using HTML, CSS, JavaScript, jQuery, and Bootstrap.
                 </li>
                 <li>
-                  Made Customer Relation Management(CRM) App in React Native.
-                  Used Webview to render Graphs in app.
+                  Built a CRM mobile app in React Native, integrating WebView
+                  for graph rendering.
                 </li>
               </ul>
             </ul>
