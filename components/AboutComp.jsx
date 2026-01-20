@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../styles/About.module.css";
 import { TbCertificate2 } from "react-icons/tb";
 import { BiBriefcaseAlt } from "react-icons/bi";
@@ -15,17 +14,17 @@ const AboutComp = () => {
             <div className={styles.card}>
               <TbCertificate2 fontSize={25} />
               <h5>Experience</h5>
-              <p>1.8+ Years</p>
+              <p>3+ Years</p>
             </div>
             <div className={styles.card}>
               <BiBriefcaseAlt fontSize={25} />
               <h5>Completed</h5>
-              <p>6+ Projects</p>
+              <p>50+ Projects</p>
             </div>
             <div className={styles.card}>
               <BiBriefcaseAlt fontSize={25} />
               <h5>Delivered</h5>
-              <p>15+ Websites</p>
+              <p>25+ Websites</p>
             </div>
           </div>
           <div className={styles.content}>
@@ -42,7 +41,7 @@ const AboutComp = () => {
               Over A years, I have worked on a variety of projects, ranging from
               small websites to large-scale applications. I have experience in
               front-end development, including
-              <span> HTML, CSS, JavaScript and JQuery</span> as well as back-end
+              <span> HTML, CSS, JavaScript, Wordpress</span> as well as back-end
               development, including <span>NodeJS</span>. I am also well-versed
               in web development frameworks <span>ReactJS and NextJS</span>.
             </p>
