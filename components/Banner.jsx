@@ -10,6 +10,7 @@ import {
   FaJs,
   FaLinkedin,
   FaReact,
+  FaWordpress,
 } from "react-icons/fa";
 import { SiJquery, SiRedux } from "react-icons/si";
 import Link from "next/link";
@@ -52,6 +53,7 @@ const Banner = () => {
             <FaHtml5 size={25} color="#DD4B25" />
             <FaCss3Alt size={25} color="#3595CF" />
             <FaJs size={25} color="#E2C430" />
+            <FaWordpress size={25} />
             <SiJquery size={25} color="#0663A6" />
             <FaReact size={25} color="#5ED3F3" />
             <SiRedux size={25} color="#7248B6" />

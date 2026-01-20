@@ -18,8 +18,8 @@ const AboutComp = () => {
             </div>
             <div className={styles.card}>
               <BiBriefcaseAlt fontSize={25} />
-              <h5>Completed</h5>
-              <p>50+ Projects</p>
+              <h5>Worked</h5>
+              <p>60+ Projects</p>
             </div>
             <div className={styles.card}>
               <BiBriefcaseAlt fontSize={25} />
