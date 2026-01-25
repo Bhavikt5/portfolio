@@ -90,6 +90,9 @@
     padding-bottom: 6rem;
   }
   .portfolioImg {
-    height: 120px;
+    height: 150px;
+  }
+  .mainContainer {
+    width: 100%;
   }
 }
