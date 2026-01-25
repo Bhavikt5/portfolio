@@ -48,9 +48,11 @@ const Navbar = () => {
     <>
       <header className={styles.header}>
         <div>
-          <h1>
-            Bhavik.<span>Dev</span>
-          </h1>
+          <Link href={"/"}>
+            <h1>
+              Bhavik.<span>Dev</span>
+            </h1>
+          </Link>
         </div>
         <div className={`${styles.rightNav} ${!showMenu ? styles.active : ""}`}>
           <nav className={styles.navbar}>

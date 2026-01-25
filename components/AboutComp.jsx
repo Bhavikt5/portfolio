@@ -29,34 +29,34 @@ const AboutComp = () => {
           </div>
           <div className={styles.content}>
             <p>
-              Hello everyone, my name is <span>Bhavik Tank</span> , and I am a
-              self-taught web developer. I began my journey as a web developer,
-              and I quickly fell in love with the field. Despite not having a
-              traditional education in web development, I have spent countless
-              hours learning and practicing my skills, and I am proud to say
-              that I have developed a strong foundation in web development.
+              Throughout my career, I have worked on building reliable,
+              scalable, and high-performing digital solutions for businesses and
+              startups. My work spans from crafting custom WordPress themes and
+              plugins to developing full-stack web applications, dashboards,
+              REST APIs, and subscription-based platforms.
             </p>
 
             <p>
-              Over A years, I have worked on a variety of projects, ranging from
-              small websites to large-scale applications. I have experience in
-              front-end development, including
-              <span> HTML, CSS, JavaScript, Wordpress</span> as well as back-end
-              development, including <span>NodeJS</span>. I am also well-versed
-              in web development frameworks <span>ReactJS and NextJS</span>.
+              My technical skill set includes WordPress, JavaScript, React.js,
+              Next.js, and the MERN stack (MongoDB, Express, React, Node.js). I
+              have practical experience with system architecture, secure
+              authentication, third-party integrations, performance
+              optimization, payment gateways such as Stripe, and state
+              management using Redux / RTK.
             </p>
 
             <p>
-              As a self-taught web developer, I understand the importance of
-              continuous learning and staying up-to-date with the latest trends
-              and technologies in the field. I am always eager to learn more and
-              expand my skillset, and I am excited to see where my career in web
-              development will take me.
+              I approach development with a strong focus on clean code,
+              maintainability, and user experience. I continuously improve my
+              skill set by staying current with emerging technologies and best
+              practices in the web ecosystem.
             </p>
 
             <p>
-              Thank you for taking the time to get to know me, and I look
-              forward to working with you!
+              I am motivated by building products that solve real business
+              problems and deliver long-term value. I look forward to
+              contributing my expertise to impactful projects and professional
+              collaborations.
             </p>
           </div>
         </div>

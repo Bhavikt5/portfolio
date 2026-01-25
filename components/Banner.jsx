@@ -24,11 +24,11 @@ const Banner = () => {
         <h1>
           I am <span>Bhavik Tank</span>
         </h1>
-        <p>Front-End Web Developer</p>
+        <p>Web Developer</p>
         <p>
-          As a self-taught web developer, I understand the importance of
-          continuous learning and staying up-to-date with the latest trends and
-          technologies in the field.
+          A dedicated and detail-oriented Web Developer with over 3.6+ years of
+          professional experience specializing in WordPress development and
+          modern JavaScript-based applications.
         </p>
 
         <div className={styles.social}>

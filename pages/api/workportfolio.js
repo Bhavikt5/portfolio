@@ -1,5 +1,72 @@
 const work = [
   {
+    imageUrl: "/utsavaa.webp",
+    title: "Wellness Website",
+    stack: "Wordpress, HTML, CSS, JavaScript",
+    anchorLink: "https://utsavaa.com/",
+  },
+  {
+    imageUrl: "/zype.webp",
+    title: "Fintech Website",
+    stack: "Wordpress, HTML, CSS, JavaScript",
+    anchorLink: "https://www.getzype.com/",
+  },
+  {
+    imageUrl: "/cirocco.webp",
+    title: "Fabric Website",
+    stack: "Wordpress, HTML, CSS, JavaScript",
+    anchorLink: "https://ciroccofabrics.com/",
+  },
+  {
+    imageUrl: "/aaylixir.webp",
+    title: "Ecommerce Fashion Website",
+    stack: "Wordpress, HTML, CSS, JavaScript",
+    anchorLink: "https://theaaylixir.com/",
+  },
+  {
+    imageUrl: "/acetattooz.webp",
+    title: "Tattooz Website",
+    stack: "Wordpress, HTML, CSS, JavaScript",
+    anchorLink: "https://acetattooz.com/",
+  },
+  {
+    imageUrl: "/acturemedia.webp",
+    title: "Website",
+    stack: "Wordpress, HTML, CSS, JavaScript",
+    anchorLink: "https://acturemedia.com/",
+  },
+
+  {
+    imageUrl: "/culinarycraft.webp",
+    title: "Culinary Ecommerce Website",
+    stack: "Wordpress, HTML, CSS, JavaScript",
+    anchorLink: "https://culinarycraft.in/",
+  },
+  {
+    imageUrl: "/ecobirdfood.webp",
+    title: "Ecommerce Bird Food Website",
+    stack: "Wordpress, HTML, CSS, JavaScript",
+    anchorLink: "https://ecobirdfood.com/",
+  },
+  {
+    imageUrl: "/mce.webp",
+    title: "Machinery Website",
+    stack: "Wordpress, HTML, CSS, JavaScript",
+    anchorLink: "https://mceteam.com/",
+  },
+  {
+    imageUrl: "/respo.webp",
+    title: "Fintech Website",
+    stack: "Wordpress, HTML, CSS, JavaScript",
+    anchorLink: "https://respo.co.in/",
+  },
+  {
+    imageUrl: "/vistruti.webp",
+    title: "Ecommerce Website",
+    stack: "Wordpress, HTML, CSS, JavaScript",
+    anchorLink: "https://vistruti.in/",
+  },
+  {
     imageUrl: "/apple clone.png",
     title: "Apple Vision Pro Clone",
     stack: "HTML, CSS, JavaScript, Gsap, Locomotive",
@@ -45,12 +112,6 @@ const work = [
     anchorLink: "https://realestate-two-rho.vercel.app/",
   },
 
-  {
-    imageUrl: "/utsava.png",
-    title: "Ecommerce Website",
-    stack: "HTML, CSS, JavaScript",
-    anchorLink: "https://bhavikt5.github.io/utsava/",
-  },
   {
     imageUrl: "/widgetorweb.png",
     title: "CRM Website",

@@ -24,25 +24,8 @@ const SkillsList = () => {
 
         <div className={styles.mainContainer}>
           <div className={styles.container}>
-            <h5>Frontend</h5>
             <div className={styles.box}>
-              {skilled.frontend?.map((i, index) => {
-                return (
-                  <div className={styles.innerBox} key={index}>
-                    <BsFillPatchCheckFill />
-                    <div className={styles.content}>
-                      <h5>{i.title}</h5>
-                      <p>{i.level}</p>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-          <div className={styles.container}>
-            <h5>Backend</h5>
-            <div className={styles.box}>
-              {skilled.backend?.map((i, index) => {
+              {skilled.skillSet?.map((i, index) => {
                 return (
                   <div className={styles.innerBox} key={index}>
                     <BsFillPatchCheckFill />

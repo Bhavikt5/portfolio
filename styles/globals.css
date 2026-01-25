@@ -25,6 +25,17 @@
   --white: #2a2727;
 }
 
+p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.1rem;
+  color: var(--primary);
+  line-height: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
 span {
   color: var(--secondary);
 }

@@ -13,7 +13,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Bhavik.Dev</title>
+        {/* <title>Bhavik.Dev</title> */}
+        <title>Next.Dev</title>
       </Head>
       <Banner />
       <AboutComp />

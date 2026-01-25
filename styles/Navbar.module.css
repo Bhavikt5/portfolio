@@ -10,7 +10,7 @@
 
 .header h1 {
   color: var(--primary);
-  font-family: "Poppins", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .header h1 span {
@@ -30,10 +30,9 @@
 .navbar a {
   color: var(--primary);
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
   font-size: 1.5rem;
-  /* transition: color 0.3s ease; */
 }
 
 .toggleBtn {

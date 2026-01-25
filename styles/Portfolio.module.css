@@ -1,5 +1,5 @@
 .portfolio {
-  padding: 3rem;
+  /* padding: 3rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,9 +26,6 @@
 }
 
 .mainContainer {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
   margin-top: 2rem;
   width: 40%;
 }
@@ -56,7 +53,7 @@
   border-radius: 4px;
   text-decoration: none;
   color: var(--white);
-  font-size: 0.7rem;
+  font-size: 1rem;
   background-color: var(--primary);
   font-family: "Josefin Sans", sans-serif;
   transition: 0.3s ease;
@@ -64,6 +61,11 @@
 
 .content a:hover {
   background-color: gray;
+}
+
+.content .portfolio_button_div {
+  display: flex;
+  gap: 10px;
 }
 
 @media (max-width: 768px) {

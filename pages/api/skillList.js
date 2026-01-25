@@ -1,6 +1,6 @@
 export default function skillList(req, res) {
   const skill = {
-    frontend: [
+    skillSet: [
       {
         title: "HTML",
         level: "Intermediate",
@@ -12,6 +12,10 @@ export default function skillList(req, res) {
       {
         title: "JS",
         level: "Intermediate",
+      },
+      {
+        title: "Wordpress",
+        level: "Advanced",
       },
       {
         title: "JQuery",
@@ -33,8 +37,6 @@ export default function skillList(req, res) {
         title: "Git",
         level: "Basic",
       },
-    ],
-    backend: [
       {
         title: "NodeJS",
         level: "Basic",

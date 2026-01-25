@@ -24,9 +24,9 @@ const Portfolio = () => {
               <Image
                 src={i.imageUrl}
                 alt="image"
-                width={250}
-                height={160}
-                style={{ objectFit: "cover" }}
+                width={500}
+                height={300}
+                style={{ objectFit: "contain" }}
               />
 
               <div className={styles.content}>
@@ -35,10 +35,14 @@ const Portfolio = () => {
                   <h5>Tech Stack</h5>
                   <p>{i.stack}</p>
                 </div>
-
-                <a href={i.anchorLink} target="_blank">
-                  View Website
-                </a>
+                <div className={styles.portfolio_button_div}>
+                  <a href={i.anchorLink} target="_blank">
+                    View Website
+                  </a>
+                  <a href="#" target="_blank">
+                    Details
+                  </a>
+                </div>
               </div>
             </div>
           );
