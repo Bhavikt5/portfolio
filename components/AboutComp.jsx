@@ -8,7 +8,7 @@ const AboutComp = () => {
   return (
     <>
       <section className={styles.about}>
-        <h1 className={styles.heading}>About Me</h1>
+        <h2 className={styles.heading}>About Me</h2>
         <div className={styles.outerBox}>
           <div className={styles.container}>
             <div className={styles.card}>

@@ -16,7 +16,8 @@
   --primary: rgb(61, 60, 60);
   --secondary: rgb(144, 42, 160);
   --white: #fff;
-  --boxShadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  --boxShadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  --borderRadius: 15px;
 }
 
 .darkMode {
@@ -36,6 +37,13 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  font-family: "Megrim", cursive;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  color: var(--primary);
+}
 span {
   color: var(--secondary);
 }

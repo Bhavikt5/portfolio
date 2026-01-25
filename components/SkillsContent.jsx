@@ -18,7 +18,7 @@ const SkillsList = () => {
     <>
       <section className={styles.skills}>
         <div className={styles.heading}>
-          <h1>Skills</h1>
+          <h2>Skills</h2>
           <p>My Technical Levels</p>
         </div>
 

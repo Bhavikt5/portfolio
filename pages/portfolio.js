@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <section className={styles.portfolio}>
       <div className={styles.heading}>
-        <h1>Portfolio</h1>
+        <h2>Portfolio</h2>
         <p>My Projects</p>
       </div>
 
@@ -20,14 +20,13 @@ const Portfolio = () => {
                 alt="image"
                 width={500}
                 height={300}
-                style={{ objectFit: "contain" }}
+                // style={{ objectFit: "contain" }}
                 className={styles.portfolioImg}
               />
 
               <div className={styles.content}>
                 <h3>{i.title}</h3>
                 <div>
-                  <h5>Tech Stack</h5>
                   <p>{i.stack}</p>
                 </div>
                 <div className={styles.portfolio_button_div}>

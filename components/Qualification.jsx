@@ -11,7 +11,7 @@ const Qualification = () => {
   return (
     <section className={styles.qualification}>
       <div className={styles.heading}>
-        <h1>Qualification</h1>
+        <h2>Qualification</h2>
         <p>My Personal Journey</p>
       </div>
 
