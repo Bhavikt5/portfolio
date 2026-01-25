@@ -11,13 +11,7 @@ const Portfolio = () => {
         <p>My Projects</p>
       </div>
 
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "space-around",
-        }}
-      >
+      <div className={styles.portfolio_grid}>
         {work.map((i, index) => {
           return (
             <div className={styles.mainContainer} key={index}>
@@ -27,6 +21,7 @@ const Portfolio = () => {
                 width={500}
                 height={300}
                 style={{ objectFit: "contain" }}
+                className={styles.portfolioImg}
               />
 
               <div className={styles.content}>
@@ -39,9 +34,9 @@ const Portfolio = () => {
                   <a href={i.anchorLink} target="_blank">
                     View Website
                   </a>
-                  <a href="#" target="_blank">
+                  {/* <a href="#" target="_blank">
                     Details
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

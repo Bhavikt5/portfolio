@@ -84,12 +84,15 @@
 
 @media (max-width: 425px) {
   .skills {
-    padding: 3rem 0;
+    padding: 2rem 0;
   }
   .mainContainer {
     padding: 2rem 0;
   }
   .container {
     width: 80%;
+  }
+  .innerBox {
+    width: 50%;
   }
 }

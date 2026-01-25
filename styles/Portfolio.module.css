@@ -1,17 +1,5 @@
-.portfolio {
-  /* padding: 3rem; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .heading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* margin-bottom: 3rem; */
+  text-align: center;
 }
 
 .heading h1 {
@@ -24,12 +12,23 @@
   font-family: "Josefin Sans", sans-serif;
   color: var(--primary);
 }
-
+.portfolio .portfolio_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  width: 100%;
+  padding: 0 80px;
+}
 .mainContainer {
-  margin-top: 2rem;
-  width: 40%;
+  margin-top: 20px;
 }
 
+.portfolioImg {
+  width: 100%;
+}
+.content {
+  margin-top: 15px;
+}
 .content h3,
 .content p,
 .content h5 {
@@ -40,12 +39,12 @@
 
 .content h5 {
   font-size: 1rem;
-  margin-top: 1.3rem;
+  margin-top: 0.5rem;
 }
 
 .content p {
   font-size: 0.8rem;
-  margin-bottom: 1.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .content a {
