@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import "../styles/globals.css";
 import Router from "next/router";
 import { useState } from "react";
@@ -26,6 +27,7 @@ function MyApp({ Component, pageProps }) {
       <Provider store={store}>
         <Navbar />
         <Component {...pageProps} />
+        <Footer />
       </Provider>
       {/* </>
       )} */}

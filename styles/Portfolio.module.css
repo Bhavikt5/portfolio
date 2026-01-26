@@ -82,9 +82,6 @@
     grid-template-columns: repeat(1, 1fr);
     padding: 0 30px;
   }
-  .content {
-    padding: 0 1rem 1.5rem;
-  }
 
   .portfolio {
     padding-bottom: 6rem;

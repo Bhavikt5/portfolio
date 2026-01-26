@@ -15,7 +15,7 @@
 .content p {
   font-family: "Josefin Sans", sans-serif;
   margin: 1rem;
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   color: var(--primary);
   line-height: 25px;
 }
@@ -38,14 +38,16 @@
 }
 
 .card h5,
-.card svg,
 .card p {
   color: var(--primary);
   font-family: "Josefin Sans", sans-serif;
   margin-bottom: 5px;
 }
+.card svg {
+  color: var(--secondary);
+  margin-bottom: 10px;
+}
 
-.card p,
 .card h5 {
   font-size: 1.1rem;
   font-weight: 700;

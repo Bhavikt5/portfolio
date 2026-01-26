@@ -1,6 +1,7 @@
 import styles from "../styles/About.module.css";
 import { TbCertificate2 } from "react-icons/tb";
 import { BiBriefcaseAlt } from "react-icons/bi";
+import { MdDeliveryDining } from "react-icons/md";
 import { ImDownload } from "react-icons/im";
 import Link from "next/link";
 
@@ -12,17 +13,17 @@ const AboutComp = () => {
         <div className={styles.outerBox}>
           <div className={styles.container}>
             <div className={styles.card}>
-              <TbCertificate2 fontSize={25} />
+              <TbCertificate2 fontSize={40} />
               <h5>Experience</h5>
-              <p>3+ Years</p>
+              <p>3.6+ Years</p>
             </div>
             <div className={styles.card}>
-              <BiBriefcaseAlt fontSize={25} />
+              <BiBriefcaseAlt fontSize={40} />
               <h5>Worked</h5>
               <p>60+ Projects</p>
             </div>
             <div className={styles.card}>
-              <BiBriefcaseAlt fontSize={25} />
+              <MdDeliveryDining fontSize={40} />
               <h5>Delivered</h5>
               <p>25+ Websites</p>
             </div>
@@ -64,7 +65,13 @@ const AboutComp = () => {
         <div>
           <a href="Resume.pdf" download>
             Download
-            <ImDownload style={{ background: "transparent" }} />
+            <ImDownload
+              style={{
+                background: "transparent",
+                marginLeft: "10px",
+                paddingTop: "3px",
+              }}
+            />
           </a>
 
           <Link href="/about">Know more</Link>

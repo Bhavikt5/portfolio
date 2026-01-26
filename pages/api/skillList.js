@@ -10,7 +10,7 @@ export default function skillList(req, res) {
         level: "Intermediate",
       },
       {
-        title: "JS",
+        title: "JavaScript",
         level: "Intermediate",
       },
       {

@@ -64,20 +64,66 @@ const Qualification = () => {
           <div>
             <ul className={styles.timeline}>
               <li>
-                <h5>Acture Media, Mumbai</h5>
+                <h5>Zype, Mumbai</h5>
                 <p>Web Developer</p>
-                <p>May 2023 - Present</p>
+                <p>July 2024 - Present</p>
               </li>
 
               <ul className={styles.jobExp}>
                 <li>
-                  Developed and delivered over 15 websites and 4 e-commerce
-                  sites using HTML, CSS, JavaScript, and WordPress.
+                  <p>
+                    Optimized WordPress website performance and responsiveness
+                    using Elementor and Elementor Pro.
+                  </p>
                 </li>
                 <li>
-                  Managed web application projects from initial client
-                  consultation and team coordination to task delegation and
-                  final delivery.
+                  <p>
+                    Developed reusable WordPress components using custom
+                    plugins, CPT, and ACF.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Implemented dynamic data-driven UI elements, including fi
+                    nancial tables, managed through the WordPress dashboard.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Built scalable plugin-based solutions for layout control and
+                    personalized content delivery.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Closely monitored organic traffi c trends, indexing status,
+                    and search performance, using Google Search Console and
+                    Google Analytics to identify issues and optimization
+                    opportunities.
+                  </p>
+                </li>
+              </ul>
+            </ul>
+            <ul className={styles.timeline}>
+              <li>
+                <h5>Acture Media, Mumbai</h5>
+                <p>Web Developer</p>
+                <p>May 2023 - June 2024</p>
+              </li>
+
+              <ul className={styles.jobExp}>
+                <li>
+                  <p>
+                    Developed and delivered over 15 websites and 4 e-commerce
+                    sites using HTML, CSS, JavaScript, and WordPress.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Managed web application projects from initial client
+                    consultation and team coordination to task delegation and
+                    final delivery.
+                  </p>
                 </li>
               </ul>
             </ul>
@@ -90,20 +136,26 @@ const Qualification = () => {
 
               <ul className={styles.jobExp}>
                 <li>
-                  Created a subscription-based comic website using Next.js,
-                  populating content via API in multiple languages and managing
-                  state with Redux.
-                  <a href="http://164.90.184.187:3000/" target="_blank">
-                    View Project
-                  </a>
+                  <p>
+                    Created a subscription-based comic website using Next.js,
+                    populating content via API in multiple languages and
+                    managing state with Redux.
+                    <a href="http://164.90.184.187:3000/" target="_blank">
+                      View Project
+                    </a>
+                  </p>
                 </li>
                 <li>
-                  Developed a Customer Relationship Management (CRM) web app
-                  using HTML, CSS, JavaScript, jQuery, and Bootstrap.
+                  <p>
+                    Developed a Customer Relationship Management (CRM) web app
+                    using HTML, CSS, JavaScript, jQuery, and Bootstrap.
+                  </p>
                 </li>
                 <li>
-                  Built a CRM mobile app in React Native, integrating WebView
-                  for graph rendering.
+                  <p>
+                    Built a CRM mobile app in React Native, integrating WebView
+                    for graph rendering.
+                  </p>
                 </li>
               </ul>
             </ul>

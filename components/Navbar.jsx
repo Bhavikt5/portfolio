@@ -76,11 +76,6 @@ const Navbar = () => {
               title="Portfolio"
               click={() => setShowMenu(!showMenu)}
             />
-            <Linked
-              href="/contact"
-              title="Contact"
-              click={() => setShowMenu(!showMenu)}
-            />
           </nav>
 
           <button className={styles.toggleBtn} onClick={() => enabledDark()}>
