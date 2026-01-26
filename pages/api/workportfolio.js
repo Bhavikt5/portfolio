@@ -2,13 +2,13 @@ const work = [
   {
     imageUrl: "/utsavaa.webp",
     title: "Wellness Website",
-    stack: "Wordpress, HTML, CSS, JavaScript",
+    stack: "Wordpress, Elementor, CPT, ACF, HTML, CSS, JavaScript, PHP",
     anchorLink: "https://utsavaa.com/",
   },
   {
     imageUrl: "/zype.webp",
     title: "Fintech Website",
-    stack: "Wordpress, HTML, CSS, JavaScript",
+    stack: "Wordpress, Elementor Pro, CPT, ACF, PHP, HTML, CSS, JavaScript",
     anchorLink: "https://www.getzype.com/",
   },
   {
@@ -20,7 +20,8 @@ const work = [
   {
     imageUrl: "/aaylixir.webp",
     title: "Ecommerce Fashion Website",
-    stack: "Wordpress, HTML, CSS, JavaScript",
+    stack:
+      "Wordpress, Woocommerce, Payment Integration, HTML, CSS, JavaScript, PHP",
     anchorLink: "https://theaaylixir.com/",
   },
   {
@@ -39,13 +40,19 @@ const work = [
   {
     imageUrl: "/culinarycraft.webp",
     title: "Culinary Ecommerce Website",
-    stack: "Wordpress, HTML, CSS, JavaScript",
+    stack: "Wordpress, Woocommerce, WooLentor, HTML, CSS, JavaScript",
     anchorLink: "https://culinarycraft.in/",
+  },
+  {
+    imageUrl: "/vistruti.webp",
+    title: "Ecommerce Website",
+    stack: "Wordpress, Woocommerce HTML, CSS, JavaScript",
+    anchorLink: "https://vistruti.in/",
   },
   {
     imageUrl: "/ecobirdfood.webp",
     title: "Ecommerce Bird Food Website",
-    stack: "Wordpress, HTML, CSS, JavaScript",
+    stack: "Wordpress, Woocommerce, HTML, CSS, JavaScript",
     anchorLink: "https://ecobirdfood.com/",
   },
   {
@@ -60,12 +67,7 @@ const work = [
     stack: "Wordpress, HTML, CSS, JavaScript",
     anchorLink: "https://respo.co.in/",
   },
-  {
-    imageUrl: "/vistruti.webp",
-    title: "Ecommerce Website",
-    stack: "Wordpress, HTML, CSS, JavaScript",
-    anchorLink: "https://vistruti.in/",
-  },
+
   {
     imageUrl: "/apple clone.png",
     title: "Apple Vision Pro Clone",
