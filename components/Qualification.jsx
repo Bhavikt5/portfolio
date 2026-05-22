@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import styles from "../styles/Qualification.module.css";
 import { HiAcademicCap } from "react-icons/hi";

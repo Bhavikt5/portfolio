@@ -1,12 +1,14 @@
+"use client";
+
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import styles from "../styles/Navbar.module.css";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 import { FaBars, FaMoon, FaSun } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 
 const Linked = (props) => {
-  const router = useRouter();
+  const pathname = usePathname();
 
   return (
     <Link
@@ -14,9 +16,7 @@ const Linked = (props) => {
       onClick={props.click}
       style={{
         color:
-          router.pathname == `${props.href}`
-            ? "var(--secondary)"
-            : "var(--primary)",
+          pathname === props.href ? "var(--secondary)" : "var(--primary)",
       }}
     >
       {props.title}

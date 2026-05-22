@@ -1,7 +1,10 @@
 import Image from "next/image";
-import React from "react";
-import styles from "../styles/Portfolio.module.css";
-import work from "../pages/api/workportfolio";
+import styles from "../../styles/Portfolio.module.css";
+import work from "../../lib/workportfolio";
+
+export const metadata = {
+  title: "Bhavik.Dev - Portfolio",
+};
 
 const Portfolio = () => {
   return (
@@ -20,7 +23,6 @@ const Portfolio = () => {
                 alt="image"
                 width={500}
                 height={300}
-                // style={{ objectFit: "contain" }}
                 className={styles.portfolioImg}
               />
 
@@ -33,9 +35,6 @@ const Portfolio = () => {
                   <a href={i.anchorLink} target="_blank">
                     View Website
                   </a>
-                  {/* <a href="#" target="_blank">
-                    Details
-                  </a> */}
                 </div>
               </div>
             </div>
