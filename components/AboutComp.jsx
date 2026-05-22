@@ -15,7 +15,7 @@ const AboutComp = () => {
             <div className={styles.card}>
               <TbCertificate2 fontSize={40} />
               <h5>Experience</h5>
-              <p>3.6+ Years</p>
+              <p>3.5+ Years</p>
             </div>
             <div className={styles.card}>
               <BiBriefcaseAlt fontSize={40} />
