@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(node -e \"const pkg = require\\('./package.json'\\); console.log\\('next:', pkg.dependencies.next, 'eslint-config-next:', pkg.devDependencies['eslint-config-next']\\)\")",
+      "Bash(npm run *)",
+      "Bash(git config *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(git add *)"
+    ]
+  }
+}
