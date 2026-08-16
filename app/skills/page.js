@@ -8,8 +8,8 @@ export const metadata = {
 const Skills = () => {
   return (
     <>
-      <Qualification />
       <SkillsList />
+      <Qualification />
     </>
   );
 };

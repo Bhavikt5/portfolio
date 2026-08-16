@@ -1,52 +1,61 @@
-@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+html {
   scroll-behavior: smooth;
-  background-color: var(--white);
-  transition: background-color 1s ease;
 }
 
-:root {
-  --primary: rgb(61, 60, 60);
-  --secondary: rgb(144, 42, 160);
-  --white: #fff;
-  --boxShadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
-  --borderRadius: 15px;
+body {
+  @apply bg-paper text-ink dark:bg-coal dark:text-white/90 transition-colors duration-300;
 }
 
-.darkMode {
-  --primary: #fff;
-  --secondary: rgb(144, 42, 160);
-  --white: #2a2727;
+::selection {
+  @apply bg-gold/30;
 }
 
-p {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 1.1rem;
-  color: var(--primary);
-  line-height: 25px;
+/* Thin, understated scrollbar to match the editorial feel */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-ink/15 dark:bg-white/15 rounded-full;
 }
 
-a {
-  text-decoration: none;
+@layer components {
+  .section {
+    @apply mx-auto max-w-content px-6 py-20 sm:px-8 lg:py-28;
+  }
+
+  .eyebrow {
+    @apply font-sans text-xs font-semibold uppercase tracking-[0.2em] text-gold;
+  }
+
+  .section-heading {
+    @apply font-serif text-3xl sm:text-4xl text-ink dark:text-white;
+  }
+
+  .rule {
+    @apply h-px w-12 bg-gold;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm bg-navy px-6 py-3 font-sans text-sm font-semibold tracking-wide text-white transition-colors hover:bg-navy-light dark:bg-gold dark:text-coal dark:hover:bg-gold-light;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm border border-ink/20 px-6 py-3 font-sans text-sm font-semibold tracking-wide text-ink transition-colors hover:border-ink/40 hover:bg-ink/5 dark:border-white/25 dark:text-white dark:hover:bg-white/10;
+  }
+
+  .card {
+    @apply rounded-sm border border-ink/10 bg-white shadow-card transition-shadow dark:border-white/10 dark:bg-coal-soft;
+  }
 }
 
-h2 {
-  font-family: "Megrim", cursive;
-  text-align: center;
-  margin-bottom: 0.5rem;
-  font-size: 2.5rem;
-  color: var(--primary);
-}
-span {
-  color: var(--secondary);
-}
-
+/* Loader (kept for parity with existing component) */
 .loader {
   width: 48px;
   height: 48px;
@@ -54,7 +63,7 @@ span {
   display: inline-block;
   position: relative;
   border: 3px solid;
-  border-color: #8b3a86 #8b3a86 transparent transparent;
+  border-color: #a9793f #a9793f transparent transparent;
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
 }
@@ -69,34 +78,25 @@ span {
   bottom: 0;
   margin: auto;
   border: 3px solid;
-  border-color: transparent transparent #282422 #241e1c;
+  border-color: transparent transparent #1c2b3a #1c2b3a;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-sizing: border-box;
   animation: rotationBack 0.5s linear infinite;
   transform-origin: center center;
 }
 .loader::before {
   width: 32px;
   height: 32px;
-  border-color: #682457 #8b3a86 transparent transparent;
+  border-color: #14161a #a9793f transparent transparent;
   animation: rotation 1.5s linear infinite;
 }
 
 @keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 @keyframes rotationBack {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(-360deg);
-  }
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
 }

@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Banner />
-      <AboutComp />
+      <AboutComp compact />
       <SkillsList />
       <Qualification />
       <PortfolioPage />
